@@ -95,8 +95,9 @@
 		<!-- Ameca -->
 		<div class="col mx-4 p-4 robot rounded">
 			<h2>Ameca</h2>
-			<p><b>Ameca</b> a Engineered Arts brit cég által fejlesztett humanoid robot, amelyet először 2021 decemberében mutattak be. Az Ameca jelenleg a világ legfejlettebb emberi formájú robotja, amelyet kimondottan az ember-robot interakció tanulmányozására és fejlesztésére terveztek.</p>
-			<p>Az Ameca az emberi arckifejezések és mozgások rendkívül realisztikus utánzásával keltett nagy feltűnést. A robot képes természetesnek tűnő arckifejezések széles skálájának megjelenítésére, beleértve a mosolyt, a meglepettséget és a gondolkodást.</p>
+			<p><b>Ameca</b> a cornwalli székhelyű startup, az Engineered Arts alkotása, és jelenleg „a világ legfejlettebb robotjaként" tartják számon.</p>
+			<p>Ameca érdekessége, hogy számos arckifejezésre képes, beleértve a kacsintást, az ajkak összeszorítását és az orr fintorgatását - akárcsak egy valódi ember. Ennek köszönhetően a dühöt, a meglepettséget és a félelmet is képes megmutatni. Azt is tudja, hogyan rántsa meg a vállát, ha valami nem érdekli, hogyan ásítson, mutogasson, illetve integessen, ha egy ismerőst lát maga előtt. A robot az új fejlesztéseknek köszönhetően arra is képessé vált, hogy felismerje magát a tükörben. Nagyon szeret macskát rajzolni.</p>
+			<p>Ameca több érzékelővel és kamerával is rendelkezik, amik összességében mintegy kétméteres távolságból pásztázzák a velük szemben állót. A robot az ő érzelmeit tanulmányozva próbál reagálni, illetve interakcióba lépni.</p>
 			<div class="card" style="width: 60%; margin:auto">
 				<img class="card-img-top img-thumbnail" src="img/ameca.jpg" alt="Ameca" title="Ameca">
 				<div class="card-body">
@@ -120,7 +121,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- Optimus Gen2 -->
 		<div class="col mx-4 p-4 robot rounded">
 			<h2>Optimus Gen2</h2>
@@ -177,6 +178,33 @@
 					<td>188 cm</td>
 					<td>173 cm</td>
 					<td>173 cm</td>
+				</tr>
+				<tr>
+					<td>Cél és feladat</td>
+					<td>Asszisztencia, szórakozás</td>
+					<td>Üzleti és személyes asszisztencia</td>
+					<td>Szociális interakció, emberi kommunikáció</td>
+					<td>Egészségügyi segítségnyújtás, betegápolás</td>
+					<td>Földi és űri kutatás, logisztika, ipari feladatok</td>
+					<td>Logisztika, ipari feladatok, szórakoztatás</td>
+				</tr>
+				<tr>
+					<td>Méret</td>
+					<td>Emberi méret</td>
+					<td>Emberi méret</td>
+					<td>Emberi méret</td>
+					<td>Emberi méret vagy kisebb</td>
+					<td>Változó méretű</td>
+					<td>Emberi méret vagy nagyobb</td>
+				</tr>
+				<tr>
+					<td>Mozgékonyság</td>
+					<td>Általában lassabb, tervezett mozgás</td>
+					<td>Jó mozgékonyság</td>
+					<td>Jó mozgékonyság, emberszerű mozgás</td>
+					<td>Lassú, gondos mozgások</td>
+					<td>Agilis mozgás, alkalmazkodó képesség</td>
+					<td>Rugalmas mozgás, nagy sebesség</td>
 				</tr>
 			</tbody>
 		</table>

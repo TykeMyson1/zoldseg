@@ -1,0 +1,23 @@
+ public IActionResult GetById(int id)
+ {
+     using (var context = new RaktarkezeloContext())
+     {
+         try
+         {
+             var keresett = context.Termekeks.FirstOrDefault(t => t.Id == id);
+             if (keresett != null)
+             {
+                 return Ok(keresett);
+             }
+             else
+             {
+                 return StatusCode(400, "Nincs ilyen azonosítójú termék");
+             }
+         }
+         catch (Exception ex)
+         {
+
+             return BadRequest($"Hiba: {ex.Message}");
+         }
+     }
+ }

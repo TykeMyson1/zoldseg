@@ -1,0 +1,17 @@
+  public IActionResult ModositTermek(Termekek termekek)
+  {
+      using (var context = new RaktarkezeloContext())
+      {
+          try
+          {
+              context.Termekeks.Update(termekek);
+              //context.SaveChanges();
+              return Ok("Sikeres Módosítás");
+          }
+          catch (Exception ex)
+          {
+
+             return BadRequest(ex.Message);
+          }
+      }
+  }

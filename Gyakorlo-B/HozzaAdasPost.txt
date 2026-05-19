@@ -1,0 +1,17 @@
+ public IActionResult UjTermek (Termekek termekek)
+ {
+     using (var context = new RaktarkezeloContext())
+     {
+         try
+         {
+             context.Termekeks.Add(termekek);
+             context.SaveChanges();
+             return Ok("Sikeres hozzáadás");
+         }
+         catch (Exception ex)
+         {
+
+             return BadRequest(ex.Message);
+         }
+     }
+ }

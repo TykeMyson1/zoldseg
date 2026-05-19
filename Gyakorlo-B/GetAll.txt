@@ -1,0 +1,17 @@
+[HttpGet("GetAll")]
+public IActionResult GetAll()
+{
+    try
+    {
+        using (var context = new RaktarkezeloContext())
+        {
+            var Termekek = context.Termekeks.ToList();
+            return StatusCode(200, Termekek);
+        }
+    }
+    catch (Exception ex)
+    {
+
+        return StatusCode(400, ex.Message);
+    }
+}
